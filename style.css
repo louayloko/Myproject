@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Anton|Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+
+
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.nav {
+    height: 40px;
+    background: #969992;
+    margin-top: 25px;
+}
+
+.nav ul {
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    right: 0;
+    top: 21px;
+    
+
+}
+
+.nav li {
+
+    list-style: none;
+    float: right;
+    padding: 10px 20px;
+  
+
+}
+
+.nav li a {
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+
+}
+
+.main_logo {
+    margin-top: -25px;
+    margin-left: 50px;
+} 
+
+.first_page_left {
+    margin-top: 5%;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Pacifico', cursive;
+
+
+} 
+
+.last_line {
+
+	font-family: 'Roboto Mono', monospace;
+}
+
+.Form_contactez_nous {
+	height: 10px;
+	width: 100%;
+
+}
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: ;
+    padding: 50px;
+    height: 50%;
+    width: 50px;
+}
+
+
+.second_header {
+	padding-left: 120px;
+}
+
+
+
+
+.mes_connaissances {
+
+    font-family: 'Dancing Script', cursive;
+    padding-left: 56px;
+}
+
+
+.first_competences {
+    margin-left: 200px;
+}
+
+
+
+.second_competences {
+    margin-left: 230px;
+    margin-top: 3%;
+}
+
+.La_technologie {
+
+       font-family: 'Dancing Script', cursive;
+       padding-left: 56px;
+
+}
+
+#myCarousel {
+    width: 1280px; 
+    height: 300px;
+}
+
+.box_du_footer_competences {
+
+    width: 100%;
+    height: 200px;
+    background-color: #D7D7D7;
+    margin-top: 60px;
+
+}
+
+.box_du_footer_index {
+
+    width: 100%;
+    height: 200px;
+    background-color: #D7D7D7;
+    margin-top: 200px;
+
+}
+
+.text_inside_footer {
+
+    padding-left: 80px;
+    padding-top: 10px;
+    font-family: 'Abel', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
